@@ -1,0 +1,15 @@
+{
+  "name": "email_sender_test",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6"
+  }
+}
