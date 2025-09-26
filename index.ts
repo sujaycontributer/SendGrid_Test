@@ -1,5 +1,6 @@
 import sgMail from "@sendgrid/mail";
-sgMail.setApiKey(process.env.API_KEY_SENDGRID as string);
+const API_KEY = process.env.API_KEY_SENDGRID as string;
+sgMail.setApiKey(API_KEY);
 
 const msg = {
   to: "ghoshsujay422@gmail.com",   // recipient
